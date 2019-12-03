@@ -1,6 +1,4 @@
 
-describe "./calculator.rb" do
-
   it "contains a local variable called first_number that is assigned to a number" do
     first_number = get_variable_from_file('./calculator.rb', "first_number")
 
@@ -13,4 +11,8 @@ describe "./calculator.rb" do
     expect(second_number).to be_an(Integer).or be_a(Float)
     expect(second_number).not_to equal(0)
   end
+
+first_number = (5)
+second_number = (2)
+'learn'
 
