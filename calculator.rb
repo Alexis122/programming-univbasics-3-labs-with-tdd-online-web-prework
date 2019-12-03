@@ -1,5 +1,3 @@
-first_number = (5)
-second_number = (2)
 
 describe "./calculator.rb" do
 
